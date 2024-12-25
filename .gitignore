@@ -1,0 +1,69 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Environment variables
+.env
+
+# Dependency directories
+node_modules/
+bower_components/
+
+# Build and output directories
+dist/
+build/
+tmp/
+coverage/
+aot/
+e2e/
+out-tsc/
+angular-out/
+
+# Angular specific files
+.angular/
+.angular-cache/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.sublime-workspace
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# Coverage reports
+coverage/
+.nyc_output/
+
+# Generated files
+*.log
+*.lock
+*.gz
+*.zip
+
+# MongoDB database dump
+dump/
+*.bson
+*.json
+*.lock
+
+# Misc
+*.bak
+*.backup
+*.orig
+*.rej
