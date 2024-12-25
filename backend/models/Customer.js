@@ -4,7 +4,7 @@ const CustomerSchema = mongoose.Schema(
     {
         date:{
             type: Date,
-            required: true
+            required: false
         },
         name: {
             type: String,

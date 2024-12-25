@@ -41,7 +41,7 @@ router.put('/:id',async(req,res)=>{
     try {
         const id = req.params.id;
         const customer = req.body;
-        const updatedCustomer = customer.findoneAndUpdate(
+        const updatedCustomer = await Customer.findOneAndUpdate(
             {
                 _id:id 
             },
