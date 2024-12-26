@@ -30,7 +30,7 @@ export class CustomerEditComponent{
   private activatedRouter = inject(ActivatedRoute);
   private customerService = inject(CustomerService);
 
-  customer!: Customer;
+  customer!: Customer; 
   customerId!: string;
   form!: FormGroup;
   router = inject(Router);
