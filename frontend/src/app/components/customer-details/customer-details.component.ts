@@ -4,10 +4,13 @@ import { CustomerService } from '../../services/customer.service';
 import { Customer } from '../../models/customer.model';
 import { error } from 'console';
 import { coerceStringArray } from '@angular/cdk/coercion';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-customer-details',
-  imports: [],
+  imports: [
+    CommonModule
+  ],
   
 templateUrl: './customer-details.component.html',
   styleUrl: './customer-details.component.css'
