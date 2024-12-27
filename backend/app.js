@@ -22,15 +22,7 @@ app.get('/',(req,res) =>{
     res.send("Welcome to Customers API");
 })
 
-app.listen(PORT, (error) =>{
-    if(!error){
-        console.log("server is listening successfully at port :", PORT);
-    }
-        
-    else{
-        console.log('An error occured:', error);
-    }
-    });
+
 
 main().catch((error) => console.error(error));
 
@@ -40,3 +32,4 @@ async function main() {
     mongoose.set('strictQuery',true);
 }
        
+module.exports = app;
